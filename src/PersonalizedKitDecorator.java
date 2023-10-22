@@ -12,4 +12,6 @@ public class PersonalizedKitDecorator extends KitDecorator{
     public double getPrice() {
         return super.getPrice() + 1000.0;
     }
+
+
 }

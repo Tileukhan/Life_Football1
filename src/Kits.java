@@ -5,6 +5,7 @@ public class Kits implements Product{
     public Kits(String category, double initialPrice) {
         this.category=category;
         this.initialPrice=initialPrice;
+
     }
     @Override
     public String getDescription() {
@@ -15,5 +16,6 @@ public class Kits implements Product{
     public double getPrice() {
         return initialPrice;
     }
+
 
 }

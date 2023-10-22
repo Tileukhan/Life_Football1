@@ -13,4 +13,5 @@ public class RetroKitDecorator extends KitDecorator {
         return super.getPrice() + 2000.0;
     }
 
+
 }

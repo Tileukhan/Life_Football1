@@ -14,4 +14,5 @@ public abstract class KitDecorator implements Product{
     public double getPrice() {
         return product.getPrice();
     }
+
 }
